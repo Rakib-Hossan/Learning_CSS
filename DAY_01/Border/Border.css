@@ -38,9 +38,26 @@
     border-right-color: red;
 }
 /* four border-color  */
-.right-border{
+.four-border{
     border-width:5px ;
     border-style: solid;
     padding: 10px;
     border-color: red green yellow teal;
+}
+/* border-radius */
+.b-radius{
+    border-width:5px ;
+    border-style: solid;
+    padding: 10px;
+    border-color: teal;
+    border-radius: 10px;
+}
+
+/* button style */
+.btn{
+    padding:10px 25px;
+    font-weight: 400;
+    background-color: rgb(15, 91, 231);
+    color:white;
+    border:none;
 }

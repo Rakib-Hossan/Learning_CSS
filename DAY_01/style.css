@@ -5,3 +5,35 @@
     color:white;
     border:none;
 }
+/* margin example */
+.margin-css{
+    border: 2px solid tomato;
+    text-align: center;
+    width:80%;
+    margin:auto;
+}
+.h-margin{
+    border:2px solid green;
+    margin: 10px 20px 30px 40px;
+}
+.four-margin{
+    border: 2px solid slateblue;
+    margin-top:30px;
+    margin-right:20px;
+    margin-bottom: 15px;
+    margin-left:10px;
+}
+/* padding example*/
+.pad{
+    padding:30px;
+    background-color:mediumseagreen;
+}
+
+/* height and width  */
+.hw{
+    height:300px;
+    width:50%;
+    background-color: blanchedalmond;
+    padding:10px;
+    text-align: center;
+}
