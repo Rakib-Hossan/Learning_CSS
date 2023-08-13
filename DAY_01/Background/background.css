@@ -39,7 +39,63 @@
     background-color: rgb(249, 241, 230);
     padding:50px;
 }
+/* background repeat X */
 .bg-repeatX{
     background-image: url(../Background/images/bg1.jpg);
     padding:50px;
+    background-repeat: repeat-x;
+}
+
+/* background repeat y  */
+.bg-repeatY{
+    background-image: url(../Background/images/bg1.jpg);
+    padding:50px;
+    background-repeat: repeat-y;
+    height:700px;
+}
+
+/* background no-repeat */
+.no-repeat{
+    background-image: url(../Background/images/bg1.jpg);
+    padding:50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* background repeat property end  */
+
+/* background position property start */
+.bg-position{
+    height: 700px;
+    padding: 50px;
+    }
+    
+    /* background-position center  */
+.bg-center{
+    background-image: url(../Background/images/neon.png);
+    padding:50px;
+    background-size: contain;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+   /* background-position left  */
+   .bg-left{
+    background-image: url(../Background/images/neon.png);
+    padding:50px;
+    background-size: contain;
+    height:auto;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+ /* background-position right  */
+ .bg-right{
+    background-image: url(../Background/images/neon.png);
+    padding:50px;
+    background-size: contain;
+    height:auto;
+    background-position: right;
+    background-repeat: no-repeat;
 }
