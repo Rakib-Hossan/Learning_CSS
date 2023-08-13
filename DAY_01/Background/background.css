@@ -1,0 +1,45 @@
+/* background-color property example start */
+.bg-color{
+    background-color: blueviolet;
+    color:white;
+    padding: 20px;
+}
+.bycolor{
+    background-color: red;
+    padding: 5px 10px;
+}
+.byRGB{
+    background-color: rgb(255,0,0);
+    padding: 5px 10px;
+}
+.byHSL{
+    background-color: HSL(0,100%,50%);
+    padding: 5px 10px;
+}
+.byRGBA{
+    background-color: rgba(255,0,0,1);
+    padding: 5px 10px;
+}
+.byHSLA{
+    background-color: HSLA(0,100%,50%,1);
+    padding: 5px 10px;
+}
+/* background-color property example end */
+
+/* background-image property example start */
+.bg-image{
+    background-image: url(../Background/images/bg2.jpg);
+    color:white;
+    padding:30px;
+}
+/* background-image property example end */
+
+/* background-repeat property example start */
+.bg-repeat{
+    background-color: rgb(249, 241, 230);
+    padding:50px;
+}
+.bg-repeatX{
+    background-image: url(../Background/images/bg1.jpg);
+    padding:50px;
+}
