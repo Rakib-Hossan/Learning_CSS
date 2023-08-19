@@ -1,0 +1,90 @@
+/* text alignment */
+.align{
+    border: 3px solid darkorchid;
+}
+.center{
+    text-align: center;
+    border: 1px solid slategray;
+}
+.right{
+    text-align:right;
+    border:1px solid tomato
+}
+.left{
+    text-align: left;
+    border: 1px solid seagreen;
+}
+.justify{
+    text-align: justify;
+    border:1px solid darkmagenta
+}
+
+/* text-decoration  */
+.decoration{
+    border: 3px dashed salmon;
+    margin-top: 5px;
+}
+.overline{
+    text-decoration-line: overline;
+    
+}
+.line-through{
+    text-decoration-line:line-through;
+    text-decoration-color: red;
+}
+.underline{
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+}
+.over-under{
+    text-decoration-line: overline underline;
+    text-decoration-color: darkcyan;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+.shorthand{
+    text-decoration: underline dotted skyblue 5px;
+}
+
+/* text-transform */
+.transform{
+    border: 3px dotted lightcoral;
+    margin-top: 5px;
+}
+.lower{
+    text-transform: lowercase;
+}
+.upper{
+    text-transform: uppercase;
+}
+.capital{
+    text-transform: capitalize;
+}
+
+/* text-spacing  */
+.spacing{
+    border: 3px solid blue;
+    margin-top: 5px;
+}
+.indent{
+    text-indent:100px;
+}
+.l-spacing{
+    letter-spacing: 5px;
+}
+.l-height{
+    line-height: 35px;
+}
+.w-spacing{
+    word-spacing: 15px;
+}
+
+/* text-shadow */
+.shadow{
+    border: 2px solid orangered;
+    margin-top: 5px;
+}
+.t-shadow{
+    text-shadow:2px 5px 5px gray;
+}

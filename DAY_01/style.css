@@ -37,23 +37,3 @@
     padding:10px;
     text-align: center;
 }
-/* text alignment */
-.align{
-    border: 5px solid darkorchid;
-}
-.center{
-    text-align: center;
-    border: 1px solid slategray;
-}
-.right{
-    text-align:right;
-    border:1px solid tomato
-}
-.left{
-    text-align: left;
-    border: 1px solid seagreen;
-}
-.justify{
-    text-align: justify;
-    border:1px solid darkmagenta
-}
