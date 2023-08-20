@@ -88,3 +88,12 @@
 .t-shadow{
     text-shadow:2px 5px 5px gray;
 }
+
+/* button style */
+.btn{
+    padding:10px 25px;
+    font-weight: 400;
+    background-color: rgb(15, 91, 231);
+    color:white;
+    border:none;
+}

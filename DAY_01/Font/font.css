@@ -1,0 +1,82 @@
+/* font-family */
+.f-family{
+    border: 3px solid seagreen;
+    padding:20px;
+}
+.fontfamily{
+    font-family:"Lucida Console";
+    line-height: 25px;
+}
+
+/* font-style */
+.f-style{
+    border: 3px solid royalblue;
+    padding:20px;
+    margin-top: 5px;
+}
+.normal{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* font-weight */
+.f-weight{
+    border: 3px solid darkorchid;
+    padding:20px;
+    margin-top: 5px;
+}
+.fbold{
+    font-weight: bold;
+}
+.flighter{
+    font-weight: lighter;
+}
+.fvalue{
+    font-weight: 800;
+}
+
+/* font-size */
+.f-size{
+    border: 3px solid olivedrab;
+    padding:20px;
+    margin-top: 5px;
+}
+.fontsize{
+    font-size: 40px;
+}
+
+/* google font */
+.g-font{
+    border: 3px solid darkcyan;
+    padding:20px;
+    margin-top: 5px;
+}
+.gfont{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* font shorthand */
+.fontshort{
+    border: 3px solid darkorange;
+    padding:20px;
+    margin-top: 5px;
+}
+.fshort{
+    font:italic lighter 30px Georgia;
+}
+
+/* button style */
+.btn{
+    padding:10px 25px;
+    font-weight: 400;
+    background-color: rgb(15, 91, 231);
+    color:white;
+    border:none;
+}
