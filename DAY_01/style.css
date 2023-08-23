@@ -37,3 +37,16 @@
     padding:10px;
     text-align: center;
 }
+
+/* display */
+.defa{
+    background-color: blueviolet;
+    color:aliceblue;
+    padding:10px;
+}
+.over{
+    background-color: blueviolet;
+    color:aliceblue;
+    padding: 10px;
+    display:inline;
+}
