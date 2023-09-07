@@ -1,0 +1,58 @@
+.relative{
+    background-color:blueviolet;
+    color:white;
+    padding:20px;
+    height: 400px;
+    width: 400px;
+}
+.rel{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 100px;
+}
+
+.absolute{
+    background-color: red;
+    color:white;
+    padding:20px;
+    height: 400px;
+    width: 400px;
+}
+
+.abs{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.obj{
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.fix{
+    position:fixed;
+    top: 0;
+    right:0;
+}
+
+.stick{
+    background-color: royalblue;
+    height: 1500px;
+    width: 300px;
+    padding:20px;
+    color:whitesmoke;
+    position: relative;
+}
+.ob{
+    position:sticky;
+    top: 0;
+    left: 0;
+}

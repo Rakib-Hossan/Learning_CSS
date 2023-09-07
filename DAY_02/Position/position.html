@@ -9,7 +9,54 @@
 <body>
     <h2>CSS Position</h2>
     <p>The position property specifies the type of positioning method used for an element. There are five different position values: <b>static; relative; fixed; absolute; sticky;</b> </p>
-    <h4>position:static;</h4>
-    <p>HTML elements are positioned static by default. Static positioned elements are not affected by the top, bottom, left, and right properties.</p>
+    <!-- position:static  -->
+   <div class="static">
+        <h4>position:static;</h4>
+        <p>HTML elements are positioned static by default. Static positioned elements are not affected by the top, bottom, left, and right properties.</p>
+   </div>
+   <!-- position:relative  -->
+    <div class="relative">
+        <h4>position:relative;</h4>
+        <p>An element with position: relative; is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</p>
+        <p>Example of css:relative;</p>
+        <p>In below we can see a div. We can move the div top, right, bottom and left if the div position is relative.</p>
+        <div class="rel">
+        </div>
+        <p>The div go to 100px left.</p>
+    </div>
+
+    <!-- position:absolute  -->
+    <div class="absolute">
+        <h4>position:absolute;</h4>
+        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor</p>
+        <p>Example of css:absolute;</p>
+        <p>In below we can see two div. We can move the div top, right, bottom and left according to their parent div if the div position is absolute.</p>
+        <div class="abs">
+            <div class="obj"></div>
+        </div>
+        <p>The violet div move top 25px and left 25px form their parent div..</p>
+    </div>
+    
+    <!-- position: fixed; -->
+    <div class="fixed">
+        <h4>position: fixed;</h4>
+        <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element. The example of position fixed of this page are : we fixed "this is fixed" is top right side of the page;</p>
+        <div class="fix">
+            <h3>This is fixed</h3>
+        </div>
+    </div>
+
+    <!-- position: sticky; -->
+    <div class="sticky">
+        <h4>position: sticky;</h4>
+        <p>An element with position: sticky; is positioned based on the user's scroll position.A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place </p>
+       
+        <div class="stick">
+            <div class="ob">
+                <h4>this is sticky</h4>
+            </div>
+        </div>
+        <p>We can see the "this is sticky"  text are stick to the parent div.</p>
+    </div>
 </body>
 </html>
