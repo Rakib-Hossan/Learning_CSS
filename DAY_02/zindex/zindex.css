@@ -1,0 +1,115 @@
+/* default */
+.fbox{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.sbox{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    margin-bottom: 25px;
+    left: 25%;
+    margin-right:25px ;
+}
+
+.tbox{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 37.5%;
+    margin-bottom: 37.5px;
+    left: 37.5%;
+    margin-right: 37.5px;
+}
+
+/* z-index example */
+.fibox{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.sebox{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    margin-bottom: 25px;
+    left: 25%;
+    margin-right:25px ;
+    z-index: 2;
+}
+
+.thbox{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 37.5%;
+    margin-bottom: 37.5px;
+    left: 37.5%;
+    margin-right: 37.5px;
+}
+
+/* another example */
+
+.banner{
+    background-image: url(/DAY_02/zindex/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bntext{
+    color: whitesmoke;
+    text-align: center;
+    padding: 100px;
+    z-index: 2;
+}
+
+.bntext h1{
+    font-size: 50px;
+}
+
+.bntext p{
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+button{
+    padding:15px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color:whitesmoke;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    color:blueviolet;
+}
+
+.bnefftect{
+    background-color:darkslateblue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.banner{
+    position: relative;
+  z-index: 5;
+}
