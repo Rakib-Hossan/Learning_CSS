@@ -1,0 +1,54 @@
+/* visible */
+.visible{
+    background-color:cornflowerblue;
+    width:200px;
+    height: 70px;
+    padding:20px;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.visible h3{
+    text-decoration: underline;
+}
+
+/* hidden */
+.hidden{
+    background-color: darkseagreen;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.hidden h3{
+    text-decoration: underline;
+}
+
+/* scroll */
+.scroll{
+    background-color: lightseagreen;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+    margin-bottom: 80px;
+}
+
+.scroll h3{
+    text-decoration: underline;
+}
+
+/* auto */
+.auto{
+    background-color: lightgreen;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    overflow: auto;
+}
+
+.auto h3{
+    text-decoration: underline;
+}
+

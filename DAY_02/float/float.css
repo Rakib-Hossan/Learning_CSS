@@ -1,0 +1,15 @@
+/* float:right */
+.right{
+    width:200px;
+    height: 200px;
+    float: right;
+    padding: 20px;
+}
+
+/* float:left */
+.left{
+    width:200px;
+    height: 200px;
+    float:left;
+    padding: 20px;
+}
