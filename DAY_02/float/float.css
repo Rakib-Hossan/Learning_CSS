@@ -1,15 +1,89 @@
 /* float:right */
+.fright{
+    border:5px solid royalblue;
+    overflow: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 .right{
     width:200px;
     height: 200px;
     float: right;
     padding: 20px;
+    border:5px solid brown;
 }
 
 /* float:left */
+.fleft{
+    border:5px solid rosybrown;
+    overflow: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 .left{
     width:200px;
     height: 200px;
     float:left;
+    padding: 20px;
+    border:5px solid blueviolet;
+}
+
+/* float:inherit */
+.finherit{
+    border:5px solid blueviolet;
+    overflow: auto;
+    padding: 20px;
+}
+.fin{
+    float: right;
+    border:5px solid hotpink;
+    padding: 20px;
+}
+.inherit{
+    width:200px;
+    height: 200px;
+    float:inherit;
+    padding: 20px;
+}
+
+/* css clear */
+.cexam{
+    border: 5px solid tomato;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.wleft{
+    float: left;
+    border: 5px solid goldenrod;
+}
+.wleft img{
+    width:200px;
+    height: 200px;
+    padding: 20px;
+}
+.wlt{
+    border: 5px solid darkcyan;
+    padding: 20px;
+}
+
+
+.cexam2{
+    border: 5px solid green;
+    padding: 20px;
+    overflow: hidden;
+}
+.cleft{
+    float: left;
+    border: 5px solid goldenrod;
+}
+.cleft img{
+    width:200px;
+    height: 200px;
+    padding: 20px;
+}
+.clt{
+    clear:left;
+    border: 5px solid darkcyan;
     padding: 20px;
 }
