@@ -1,0 +1,12 @@
+.tran-btn{
+    background-color: blue;
+    color:white;
+    border: 2px solid blue;
+    padding: 10px 25px;
+}
+.tran-btn:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    transition:background-color 5s;
+    
+}
