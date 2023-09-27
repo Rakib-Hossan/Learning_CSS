@@ -79,7 +79,7 @@ button{
     border: none;
     animation-name: btn;
     animation-duration: 5s;
-
+    animation-iteration-count: infinite ;
 }
 
 @keyframes btn{
