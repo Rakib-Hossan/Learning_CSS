@@ -1,0 +1,101 @@
+/* basic example animation */
+.basic{
+    background-color: yellow;
+    width:50%;
+    margin:0 auto;
+    box-sizing: border-box;
+    padding: 50px;
+    animation-name: basic_example;
+    animation-duration: 5s;
+}
+@keyframes basic_example{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+        color:white;
+    }
+}
+
+/* second animation example */
+
+.second{
+    width: 50%;
+    background-color: blueviolet;
+    padding: 20px;
+    color: white; 
+    text-align: center;
+    position: relative;
+}
+.second img{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    animation-name: second_img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes second_img {
+    0%{
+        bottom: 0;
+    }
+    25%{
+        bottom: 25%;
+        transform: scale(2) rotate(90deg);
+        opacity: 0.5;
+    }
+    50%{
+        bottom: 50%;
+        transform: scale(4) rotate(180deg);
+        opacity: 0.75;
+    }
+    75%{
+        bottom: 75%;
+        transform: scale(8) rotate(360deg);
+        opacity: 1;
+    }
+    100%{
+       bottom: 0;
+    }
+}
+
+
+.btn{
+    width: 50%;
+    height: 200px;
+    background-color: lightcoral;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+button{
+    padding: 25px 40px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    animation-name: btn;
+    animation-duration: 5s;
+
+}
+
+@keyframes btn{
+    0%{
+        background-color: blueviolet;
+    }
+    25%{
+        background-color: lawngreen;
+    }
+    50%{
+        background-color: brown;
+    }
+    75%{
+        background-color: teal;
+    }
+    100%{
+        background-color: blue;
+    }
+}

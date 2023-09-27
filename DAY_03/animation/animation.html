@@ -11,6 +11,87 @@
     <p>CSS allows animation of HTML elements without using JavaScript. Their are two step to use animation:</p>
     <p>1. Give a animation name using animation property.</p>
     <p>2. Use @keyframes to set animation</p>
+    <div class="basic">
+        <h3>Basic example of animation.</h3>
+        <p> We change this div color yellow to green  and text color turn into white. It changes within 5s.</p>
+        <p>Code for this basic animations are:</p>
+        <pre>
+            <code>
+                .basic{
+                    background-color: yellow;
+                    width:50%;
+                    margin:0 auto;
+                    box-sizing: border-box;
+                    padding: 50px;
+                    animation-name: basic_example;
+                    animation-duration: 5s;
+                }
+                @keyframes basic_example{
+                    from{
+                        background-color: yellow;
+                    }
+                    to{
+                        background-color: blue;
+                        color:white;
+                    }
+                }
+            </code>
+        </pre>
+    </div>
 
+    <div class="second">
+        <h3>This is second animation example</h3>
+        <img src="/DAY_03/animation/images/star.gif" alt="">
+        <p>code for this animation</p>
+        <pre>
+            <code>
+                .second{
+                    width: 50%;
+                    background-color: blueviolet;
+                    padding: 20px;
+                    color: white; 
+                    text-align: center;
+                    position: relative;
+                }
+                .second img{
+                    position: absolute;
+                    width: 30px;
+                    height: 40px;
+                    animation-name: second_img;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes second_img {
+                    0%{
+                        bottom: 0;
+                    }
+                    25%{
+                        bottom: 25%;
+                        transform: scale(2) rotate(90deg);
+                        opacity: 0.5;
+                    }
+                    50%{
+                        bottom: 50%;
+                        transform: scale(4) rotate(180deg);
+                        opacity: 0.75;
+                    }
+                    75%{
+                        bottom: 75%;
+                        transform: scale(8) rotate(360deg);
+                        opacity: 1;
+                    }
+                    100%{
+                       bottom: 0;
+                    }
+                }
+                
+            </code>
+        </pre>
+    </div>
+
+    <div class="btn">
+        <h3>Another Example</h3>
+        <button>Click ME</button>
+    </div>
 </body>
 </html>
