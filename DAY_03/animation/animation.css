@@ -80,6 +80,7 @@ button{
     animation-name: btn;
     animation-duration: 5s;
     animation-iteration-count: infinite ;
+    animation-timeline: scroll;
 }
 
 @keyframes btn{

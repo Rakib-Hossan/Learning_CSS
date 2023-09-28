@@ -27,3 +27,51 @@
     width: 70%;
    
 }
+
+.container{
+    text-align: center;
+   
+}
+
+.field{
+    background-color: green;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.bat{
+    border: 1px solid brown;
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+    background-color:tan;
+    position: relative;
+    top: 300px;
+    bottom:0;
+    left: 250px;
+    transition: transform 1s;
+}
+
+.ball{
+    background-color: rgb(223, 22, 22);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    top: 320px;
+    transition: transform 2s;
+    left: 300px;
+}
+
+.field:hover .ball{
+    transform: translateY(-450px)
+    
+}
+
+.field:hover .bat{
+    transform: rotate(15deg);
+    transform-origin: right bottom;
+}
