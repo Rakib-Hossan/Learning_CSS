@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <h2>CSS Flexbox</h2>
+    <p>There are 2 main components of the Flexbox:
+        <ol>
+            <li><b>Flex Container: </b>The parent “div” which contains various divisions is called a flex container.</li>
+            <li><b>Flex Items:</b> The items inside the container “div” are flex items.</li>
+        </ol>
+    </p>
+
+    <h2>Flex Container</h2>
+    <p>The flex container becomes flexible by setting the <b>display</b> property to <b>flex</b>. The flex container properties are:
+    <ul>
+        <li>flex-direction</li>
+        <li>flex-wrap</li>
+        <li>flex-flow</li>
+        <li>justify-content</li>
+        <li>align-items</li>
+        <li>align-content</li>
+    </ul></p>
+    <!-- flex-direction property -->
+    <h3>flex-direction</h3>
+    <p>The flex-direction property defines in which direction the container wants to stack the flex items. <b>Example of flex-direction:</b></p>
+    <div class="dir">
+        <!-- flex-direction:column; -->
+        
+        <div class="container">
+            <h4>flex-direction:column</h4>
+            <div class="f_direction">
+                <div class="box-1">
+                    <h3>box-1</h3>
+                </div>
+                <div class="box-2">
+                    <h3>box-2</h3>
+                </div>
+                <div class="box-3">
+                    <h3>box-3</h3>
+                </div>
+                <div class="box-4">
+                    <h3>box-4</h3>
+                </div>
+            </div>
+        </div>
+         <!-- flex-direction:column-reverse; -->
+         
+         <div class="container">
+            <h4>flex-direction:column-reverse</h4>
+            <div class="f_direction2">
+                <div class="box-1">
+                    <h3>box-1</h3>
+                </div>
+                <div class="box-2">
+                    <h3>box-2</h3>
+                </div>
+                <div class="box-3">
+                    <h3>box-3</h3>
+                </div>
+                <div class="box-4">
+                    <h3>box-4</h3>
+                </div>
+            </div>
+         </div>
+         
+         <!-- flex-direction:row; -->
+         
+         <div class="container">
+            <h4>flex-direction:row; its default</h4>
+            <div class="f_direction3">
+                <div class="box-1">
+                    <h3>box-1</h3>
+                </div>
+                <div class="box-2">
+                    <h3>box-2</h3>
+                </div>
+                <div class="box-3">
+                    <h3>box-3</h3>
+                </div>
+                <div class="box-4">
+                    <h3>box-4</h3>
+                </div>
+            </div>
+         </div>
+         
+         <!-- flex-direction:row-reverse; -->
+         <div class="container">
+            <h4>flex-direction:row-reverse;</h4>
+            <div class="f_direction4">
+                 <div class="box-1">
+                     <h3>box-1</h3>
+                 </div>
+                 <div class="box-2">
+                     <h3>box-2</h3>
+                 </div>
+                 <div class="box-3">
+                     <h3>box-3</h3>
+                 </div>
+                 <div class="box-4">
+                     <h3>box-4</h3>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <!-- flex-wrap property -->
+    <h3>flex-warp</h3>
+    <p>The flex-warp property specifies whether the flex items should wrap or not.</p>
+    <div class="warp">
+        
+        <div class="con">
+            <!-- flex-warp:wrap -->
+            <h4>flex-warp:warp</h4>
+            <div class="warp_ex">
+                <div class="box">
+                    <h3>box-1</h3>
+                </div>
+                <div class="box">
+                    <h3>box-2</h3>
+                </div>
+                <div class="box">
+                    <h3>box-3</h3>
+                </div>
+                <div class="box">
+                    <h3>box-4</h3>
+                </div>
+                <div class="box">
+                    <h3>box-5</h3>
+                </div>
+                <div class="box">
+                    <h3>box-6</h3>
+                </div>
+                <div class="box">
+                    <h3>box-7</h3>
+                </div>
+                <div class="box">
+                    <h3>box-8</h3>
+                </div>
+            </div>
+            <!-- flex-warp:nowrap -->
+            <h4>flex-warp:nowarp; its default</h4>
+            <div class="warp_ex2">
+                <div class="box">
+                    <h3>box-1</h3>
+                </div>
+                <div class="box">
+                    <h3>box-2</h3>
+                </div>
+                <div class="box">
+                    <h3>box-3</h3>
+                </div>
+                <div class="box">
+                    <h3>box-4</h3>
+                </div>
+                <div class="box">
+                    <h3>box-5</h3>
+                </div>
+                <div class="box">
+                    <h3>box-6</h3>
+                </div>
+                <div class="box">
+                    <h3>box-7</h3>
+                </div>
+                <div class="box">
+                    <h3>box-8</h3>
+                </div>
+            </div>
+
+            <!-- flex-wrap:wrap-reverse -->
+            <h4>flex-wrap:wrap-reverse</h4>
+            <div class="warp_ex3">
+                <div class="box">
+                    <h3>box-1</h3>
+                </div>
+                <div class="box">
+                    <h3>box-2</h3>
+                </div>
+                <div class="box">
+                    <h3>box-3</h3>
+                </div>
+                <div class="box">
+                    <h3>box-4</h3>
+                </div>
+                <div class="box">
+                    <h3>box-5</h3>
+                </div>
+                <div class="box">
+                    <h3>box-6</h3>
+                </div>
+                <div class="box">
+                    <h3>box-7</h3>
+                </div>
+                <div class="box">
+                    <h3>box-8</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- flex-flow property -->
+    <h3>flex-flow</h3>
+    <p>The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.</p>
+    <div class="flow">
+        <div class="cont">
+            <div class="box">
+                <h3>box-1</h3>
+            </div>
+            <div class="box">
+                <h3>box-2</h3>
+            </div>
+            <div class="box">
+                <h3>box-3</h3>
+            </div>
+            <div class="box">
+                <h3>box-4</h3>
+            </div>
+            <div class="box">
+                <h3>box-5</h3>
+            </div>
+            <div class="box">
+                <h3>box-6</h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

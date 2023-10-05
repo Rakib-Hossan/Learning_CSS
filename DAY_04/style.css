@@ -1,0 +1,12 @@
+.btn{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    padding:10px 25px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid blueviolet;
+    color:blueviolet;
+}
